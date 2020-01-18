@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<flash_device>
+  <exe>$PROJ_DIR$\config files\FlashK65Fxxx256K.out</exe>
+  <page>16</page>
+  <block>512 0x1000</block>
+  <flash_base>0x00000000</flash_base>
+  <macro>$PROJ_DIR$\config files\FlashK60Xxxx128K.mac</macro>
+  <aggregate>1</aggregate>
+  <args_doc>The "--partition" argument is used to program
+EEPROM Size and FlexNVM Partition Code in the Data Flash IFR. The value after
+"--partition" should be 2 bytes. The LS byte is the EEPROM Size and the MS
+byte is the FlexNVM Partition Code. Refer to device data sheet for 
+EEPROM Size and Partition Code settings.
+Note1: Using "--partition" arg will erase all program flash memory, data flash
+memory, data flash IFR space, EEPROM backup memory, and FlexRAM.
+--enable_config_write - allow programming of 0x40C - 0x40F with user supplied
+data, in other case flashloader after erase of block 0 will write 0xFFFFFFFE 
+(unsecure state).
+When is used "--ext_osc 50000" argument, the flashloader will try to initialize 
+external oscillator circuit and PLL, frequency of the oscillators in kHz, 
+on fault the internal oscillator will be used.
+When is used "--ext_quartz 8000" argument, the flashloader will try to initialize 
+external quartz resonator and PLL, frequency of the quartz is in kHz, 
+on fault the internal oscillator will be used.
+The "--int_osc" argument will force initialization of internal oscillator 
+and FLL.
+"--no_blankcheck" -Don't perform a blankcheck, erase flash blocks immediately.</args_doc>
+</flash_device>

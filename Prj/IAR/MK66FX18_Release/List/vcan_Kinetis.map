@@ -1,0 +1,574 @@
+###############################################################################
+#
+# IAR ELF Linker V8.22.1.15669/W32 for ARM                18/Jul/2019  02:20:29
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Exe\vcan_Kinetis.out
+#    Map file     =  
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\List\vcan_Kinetis.map
+#    Command line =  
+#        -f C:\Users\ZHANGY~1\AppData\Local\Temp\EW357A.tmp
+#        (C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\24TFT_SPI.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\Annealing.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\Car.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\debug.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\diskio.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\distance.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\ff.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\Fuzzy.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\Information.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\Kalman.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\main.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\misc.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\MK66_adc.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\MK66_conf.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\MK66_dma.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\MK66_flexbus.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\MK66_gpio.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\MK66_i2c.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\MK66_it.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\MK66_port.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\MK66_rtc.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\MK66_sdhc.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\MK66_spi.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\MK66_uart.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\MK66_wdog.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\MyISR.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\PID.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\Scope.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\Show.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\Signal.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\startup_MK66FX18.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\system_MK66FX18.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\Tools.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\VCAN_BMP.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\VCAN_computer.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\vcan_img2sd.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\VCAN_key.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\VCAN_key_event.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\VCAN_LCD_ILI9325.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\VCAN_LCD_ILI9341.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\VCAN_LCD_ST7735R.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\VCAN_LCD_ST7735S.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\VCAN_LED.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\VCAN_MMA7455.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\VCAN_NRF24L0.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\VCAN_NRF24L0_MSG.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\VCAN_OV7725_Eagle.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\VCAN_RTC_count.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\VCAN_SCCB.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\vcan_sd_app.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\Vcan_touch.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\VCAN_TSL1401.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\VCAN_UI_VAR.o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj\vectors.o
+#        --redirect _Printf=_PrintfLargeNoMb --redirect _Scanf=_ScanfLargeNoMb
+#        -o
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Exe\vcan_Kinetis.out
+#        --map
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\List\vcan_Kinetis.map
+#        --config "C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\config
+#        files\vcan_ROM_K66X1M.icf"
+#        C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\..\..\Lib\CMSIS\iar_cortexM4l_math.a
+#        --entry __iar_program_start --redirect __write=__write_buffered
+#        --inline --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = NoFree
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The no free heap was selected because no calls to memory
+deallocation functions were found in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x00010000 { ro section .intvec };
+"A1":  place at 0x00010410 { ro section .noinit };
+define block CodeRelocate { section .textrw_init };
+"P1":  place in [from 0x00010000 to 0x00100000] { ro, block CodeRelocate };
+define block CodeRelocateRam { section .textrw };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x1fff0410 to 0x20030000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+initialize manually with packing = copy, complex ranges { section .data };
+
+No sections matched the following patterns:
+
+  section .textrw       in block CodeRelocateRam
+  section .textrw_init  in block CodeRelocate
+
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A0":                                        0x410
+  .intvec              const    0x00010000   0x410  vectors.o [1]
+                              - 0x00010410   0x410
+
+"A1":                                          0x8
+  .noinit              ro code  0x00010410     0x8  startup_MK66FX18.o [1]
+                              - 0x00010418     0x8
+
+"P1", part 1 of 2:                          0x6268
+  .text                ro code  0x00010418  0x23b0  Show.o [1]
+  .text                ro code  0x000127c8   0x1c0  VCAN_key.o [1]
+  .text                ro code  0x00012988    0x48  FltToDbl.o [4]
+  .text                ro code  0x000129d0  0x1a3c  Scope.o [1]
+  .text                ro code  0x0001440c    0xa0  MK66_gpio.o [1]
+  .text                ro code  0x000144ac    0x7c  MK66_port.o [1]
+  .text                ro code  0x00014528    0x9c  VCAN_LED.o [1]
+  .text                ro code  0x000145c4    0xa6  ABImemcpy.o [5]
+  .text                ro code  0x0001466a     0x2  MK66_conf.o [1]
+  .text                ro code  0x0001466c   0x4ec  VCAN_LCD_ILI9325.o [1]
+  .text                ro code  0x00014b58    0xfc  MK66_flexbus.o [1]
+  .text                ro code  0x00014c54   0x38c  Information.o [1]
+  .text                ro code  0x00014fe0   0x2b0  Signal.o [1]
+  .text                ro code  0x00015290   0x12c  MK66_adc.o [1]
+  .text                ro code  0x000153bc   0x37c  Car.o [1]
+  .text                ro code  0x00015738    0x44  no_free_heap0.o [3]
+  .text                ro code  0x0001577c    0x26  Kalman.o [1]
+  .text                ro code  0x000157a4    0x2e  DblCmpGe.o [4]
+  .text                ro code  0x000157d4    0x2c  xgetmemchunk.o [3]
+  .text                ro code  0x00015800   0x2a0  PID.o [1]
+  .rodata              const    0x00015aa0   0x1e4  Show.o [1]
+  .text                ro code  0x00015c84   0x1b0  MK66_uart.o [1]
+  .text                ro code  0x00015e34   0x178  MyISR.o [1]
+  .text                ro code  0x00015fac   0x15c  distance.o [1]
+  .text                ro code  0x00016108    0x18  misc.o [1]
+  .text                ro code  0x00016120   0x16c  debug.o [1]
+  .data_init                    0x0001628c    0xf8  <Block>
+    Initializer bytes  const    0x0001628c    0xf8  <for .data-1>
+  .text                ro code  0x00016384    0xd4  system_MK66FX18.o [1]
+  .text                ro code  0x00016458    0x2c  MK66_wdog.o [1]
+  .text                ro code  0x00016484    0xa0  main.o [1]
+  .text                ro code  0x00016524     0x6  ABImemclr.o [5]
+  .text                ro code  0x0001652c    0x5e  ABImemset.o [5]
+  .text                ro code  0x0001658a    0x40  zero_init3.o [5]
+  .text                ro code  0x000165cc    0x28  data_init.o [5]
+  .text                ro code  0x000165f4    0x22  fpinit_M.o [4]
+  .iar.init_table      const    0x00016618    0x10  - Linker created -
+  .text                ro code  0x00016628    0x1e  cmain.o [5]
+  .text                ro code  0x00016646     0x4  exit.o [3]
+  .text                ro code  0x0001664c     0xa  cexit.o [5]
+  .text                ro code  0x00016658     0xc  XXexit.o [5]
+  .text                ro code  0x00016664     0xc  cstartup_M.o [5]
+  .rodata              const    0x00016670     0x8  Car.o [1]
+  .rodata              const    0x00016678     0x8  Scope.o [1]
+  .rodata              const    0x00016680     0x0  zero_init3.o [5]
+                              - 0x00016680  0x6268
+
+"P1", part 2 of 2:                             0x0
+  CodeRelocate                  0x00016680     0x0  <Block>
+
+"P2", part 1 of 3:                            0xf8
+  .data                         0x1fff0410    0xf8  <Block>
+    .data-1                     0x1fff0410    0xf7  <Init block>
+      .data            inited   0x1fff0410    0x20  Information.o [1]
+      .data            inited   0x1fff0430     0x8  MK66_adc.o [1]
+      .data            inited   0x1fff0438     0x4  MK66_conf.o [1]
+      .data            inited   0x1fff043c    0x14  MK66_gpio.o [1]
+      .data            inited   0x1fff0450    0x14  MK66_port.o [1]
+      .data            inited   0x1fff0464    0x14  MK66_uart.o [1]
+      .data            inited   0x1fff0478    0x2c  PID.o [1]
+      .data            inited   0x1fff04a4    0x28  Show.o [1]
+      .data            inited   0x1fff04cc     0xc  Signal.o [1]
+      .data            inited   0x1fff04d8    0x10  VCAN_key.o [1]
+      .data            inited   0x1fff04e8    0x14  VCAN_LCD_ILI9325.o [1]
+      .data            inited   0x1fff04fc     0x4  VCAN_LED.o [1]
+      .data            inited   0x1fff0500     0x6  VCAN_LCD_ILI9325.o [1]
+      .data            inited   0x1fff0506     0x1  Scope.o [1]
+                              - 0x1fff0508    0xf8
+
+"P2", part 2 of 3:                          0x1ae8
+  .bss                          0x1fff0508  0x1ae8  <Block>
+    .bss               zero     0x1fff0508    0x10  Car.o [1]
+    .bss               zero     0x1fff0518    0x2c  Car.o [1]
+    .bss               zero     0x1fff0544    0x10  Car.o [1]
+    .bss               zero     0x1fff0554     0x8  debug.o [1]
+    .bss               zero     0x1fff055c    0x58  debug.o [1]
+    .bss               zero     0x1fff05b4    0x68  debug.o [1]
+    .bss               zero     0x1fff061c     0xc  distance.o [1]
+    .bss               zero     0x1fff0628     0x8  Information.o [1]
+    .bss               zero     0x1fff0630    0x1c  Kalman.o [1]
+    .bss               zero     0x1fff064c  0x1790  Scope.o [1]
+    .bss               zero     0x1fff1ddc    0x24  Show.o [1]
+    .bss               zero     0x1fff1e00    0x14  Show.o [1]
+    .bss               zero     0x1fff1e14    0x40  Show.o [1]
+    .bss               zero     0x1fff1e54    0x50  Show.o [1]
+    .bss               zero     0x1fff1ea4   0x100  Signal.o [1]
+    .bss               zero     0x1fff1fa4     0xc  system_MK66FX18.o [1]
+    .bss               zero     0x1fff1fb0    0x28  VCAN_key.o [1]
+    .bss               zero     0x1fff1fd8     0x4  no_free_heap0.o [3]
+    .bss               zero     0x1fff1fdc     0x4  xgetmemchunk.o [3]
+    .bss               zero     0x1fff1fe0     0x2  Car.o [1]
+    .bss               zero     0x1fff1fe2     0x5  distance.o [1]
+    .bss               zero     0x1fff1fe7     0x1  Information.o [1]
+    .bss               zero     0x1fff1fe8     0x1  MyISR.o [1]
+    .bss               zero     0x1fff1fe9     0x1  Scope.o [1]
+    .bss               zero     0x1fff1fea     0x3  VCAN_key.o [1]
+                              - 0x1fff1ff0  0x1ae8
+
+"P2", part 3 of 3:                           0x200
+  CodeRelocateRam               0x1fff1ff0     0x0  <Block>
+  HEAP                          0x1fff1ff0   0x200  <Block>
+    HEAP               uninit   0x1fff1ff0   0x200  <Block tail>
+                              - 0x1fff21f0   0x200
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1ae5:
+          0x1fff0508  0x1ae5
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module              ro code  ro data  rw data
+    ------              -------  -------  -------
+C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj: [1]
+    Car.o                   892        8       78
+    Information.o           908       32       41
+    Kalman.o                 38                28
+    MK66_adc.o              300        8        8
+    MK66_conf.o               2        4        4
+    MK66_flexbus.o          252
+    MK66_gpio.o             160       20       20
+    MK66_port.o             124       20       20
+    MK66_uart.o             432       20       20
+    MK66_wdog.o              44
+    MyISR.o                 376                 1
+    PID.o                   672       44       44
+    Scope.o               6 716        9    6 034
+    Show.o                9 136      524      240
+    Signal.o                688       12      268
+    VCAN_LCD_ILI9325.o    1 260       26       26
+    VCAN_LED.o              156        4        4
+    VCAN_key.o              448       16       59
+    debug.o                 364               200
+    distance.o              348                17
+    main.o                  160
+    misc.o                   24
+    startup_MK66FX18.o        8
+    system_MK66FX18.o       212                12
+    vectors.o                      1 040
+    ---------------------------------------------
+    Total:               23 720    1 787    7 124
+
+command line: [2]
+    ---------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                    4
+    no_free_heap0.o          68                 4
+    xgetmemchunk.o           44                 4
+    ---------------------------------------------
+    Total:                  116                 8
+
+m7M_tls.a: [4]
+    DblCmpGe.o               46
+    FltToDbl.o               72
+    fpinit_M.o               34
+    ---------------------------------------------
+    Total:                  152
+
+rt7M_tl.a: [5]
+    ABImemclr.o               6
+    ABImemcpy.o             166
+    ABImemset.o              94
+    XXexit.o                 12
+    cexit.o                  10
+    cmain.o                  30
+    cstartup_M.o             12
+    data_init.o              40
+    zero_init3.o             64
+    ---------------------------------------------
+    Total:                  434
+
+    Gaps                     12        2
+    Linker created                    17      512
+-------------------------------------------------
+    Grand Total:         24 434    1 806    7 644
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.bss$$Base              0x1fff0508           --   Gb  - Linker created -
+.bss$$Limit             0x1fff1ff0           --   Gb  - Linker created -
+.data$$Base             0x1fff0410           --   Gb  - Linker created -
+.data$$Limit            0x1fff0508           --   Gb  - Linker created -
+.data_init$$Base        0x0001628c           --   Gb  - Linker created -
+.data_init$$Limit       0x00016384           --   Gb  - Linker created -
+.iar.init_table$$Base   0x00016618           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00016628           --   Gb  - Linker created -
+?main                   0x00016629          Code  Gb  cmain.o [5]
+ADCN                    0x1fff0430     0x8  Data  Gb  MK66_adc.o [1]
+ADC_Channel             0x1fff04d0     0x8  Data  Gb  Signal.o [1]
+ADC_init                0x00014fe1    0xb8  Code  Gb  Signal.o [1]
+AD_Scan                 0x00015127    0x44  Code  Gb  Signal.o [1]
+AD_sliding_get          0x000150cd    0x5a  Code  Gb  Signal.o [1]
+All_AD_init             0x0001516d    0xb4  Code  Gb  Signal.o [1]
+All_PID_init            0x00015801    0x58  Code  Gb  PID.o [1]
+All_show                0x000121b5    0x1e  Code  Gb  Show.o [1]
+Boot_action             0x00012211   0x27e  Code  Gb  Show.o [1]
+Buzzer                  0x00015531    0x30  Code  Gb  Car.o [1]
+Buzzer::times           0x1fff1fe1     0x1  Data  Lc  Car.o [1]
+Buzzer_switch           0x1fff1fe0     0x1  Data  Gb  Car.o [1]
+Calcu_sub_mul_add       0x00014c55    0x64  Code  Gb  Information.o [1]
+Car_create              0x000153bd    0x24  Code  Gb  Car.o [1]
+Car_init                0x00015499    0x98  Code  Gb  Car.o [1]
+Car_speed_get           0x000153e1    0x8c  Code  Gb  Car.o [1]
+Car_speed_get::queue    0x1fff0548     0xc  Data  Lc  Car.o [1]
+Car_speed_get::rear     0x1fff0544     0x1  Data  Lc  Car.o [1]
+Car_speed_get::sample_times
+                        0x1fff0545     0x1  Data  Lc  Car.o [1]
+CodeRelocate$$Base      0x00016680           --   Gb  - Linker created -
+CodeRelocate$$Limit     0x00016680           --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff1ff0           --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff1ff0           --   Gb  - Linker created -
+Color                   0x1fff04c0     0x8  Data  Gb  Show.o [1]
+Cross_Rt_judge          0x00014d21    0x62  Code  Gb  Information.o [1]
+Cross_Rt_judge::c_times
+                        0x1fff041a     0x2  Data  Lc  Information.o [1]
+Cross_Rt_judge::r_times
+                        0x1fff041c     0x2  Data  Lc  Information.o [1]
+Cursor_move             0x00012b9d    0x8c  Code  Gb  Scope.o [1]
+Cursor_move::last_seat  0x1fff0506     0x1  Data  Lc  Scope.o [1]
+DATA                    0x1fff055c     0x4  Data  Lc  debug.o [1]
+DIR_gain                0x1fff0410     0x4  Data  Gb  Information.o [1]
+Direct_error            0x00014f0f    0xba  Code  Gb  Information.o [1]
+Distance                0x1fff0620     0x8  Data  Gb  distance.o [1]
+Distance_init           0x00015fad    0x34  Code  Gb  distance.o [1]
+Distance_measure        0x00016025    0x70  Code  Gb  distance.o [1]
+Distance_measure::times
+                        0x1fff061d     0x1  Data  Lc  distance.o [1]
+Distance_send           0x00015fe1    0x44  Code  Gb  distance.o [1]
+Distance_send::times    0x1fff061c     0x1  Data  Lc  distance.o [1]
+Ecc_Car                 0x1fff0514     0x4  Data  Gb  Car.o [1]
+Err_Kalman              0x1fff0630    0x1c  Data  Gb  Kalman.o [1]
+Error_update            0x0001546d    0x2a  Code  Gb  Car.o [1]
+Error_update::times     0x1fff0508     0x1  Data  Lc  Car.o [1]
+GPIOX                   0x1fff043c    0x14  Data  Gb  MK66_gpio.o [1]
+Gear                    0x1fff04c8     0x4  Data  Gb  Show.o [1]
+HEAP$$Base              0x1fff1ff0           --   Gb  - Linker created -
+HEAP$$Limit             0x1fff21f0           --   Gb  - Linker created -
+INV_Var                 0x1fff0560    0x50  Data  Lc  debug.o [1]
+Induct                  0x1fff1ea4   0x100  Data  Gb  Signal.o [1]
+Insert_to_queue         0x00012a65   0x134  Code  Gb  Scope.o [1]
+KEY_PTxn                0x1fff04d8     0x8  Data  Gb  VCAN_key.o [1]
+Kalman_filter_init      0x0001577d    0x26  Code  Gb  Kalman.o [1]
+LCD_ILI9325_dir         0x00014949    0xb4  Code  Gb  VCAN_LCD_ILI9325.o [1]
+LCD_ILI9325_init        0x0001467f    0x22  Code  Gb  VCAN_LCD_ILI9325.o [1]
+LCD_ILI9325_org_init    0x000146a1   0x2a6  Code  Gb  VCAN_LCD_ILI9325.o [1]
+LCD_ILI9325_ptlon       0x000149fd   0x14a  Code  Gb  VCAN_LCD_ILI9325.o [1]
+LCD_ILI9325_ramwr       0x0001466d     0xa  Code  Gb  VCAN_LCD_ILI9325.o [1]
+LCD_ILI9325_wr_data     0x00014677     0x8  Code  Gb  VCAN_LCD_ILI9325.o [1]
+LED_PTxn                0x1fff04fc     0x4  Data  Gb  VCAN_LED.o [1]
+Mean_Filter             0x00015099    0x34  Code  Gb  Signal.o [1]
+Modify_Parameter        0x00016127    0x3e  Code  Gb  debug.o [1]
+Motor_PID               0x1fff04a0     0x4  Data  Gb  PID.o [1]
+Motor_move::last_mode   0x1fff050a     0x1  Data  Lc  Car.o [1]
+Motor_move::times       0x1fff050e     0x2  Data  Lc  Car.o [1]
+Motor_set               0x00015621    0x94  Code  Gb  Car.o [1]
+Normalized              0x00015221    0x32  Code  Gb  Signal.o [1]
+Obstacle_avoidance::move_state
+                        0x1fff1fe6     0x1  Data  Lc  distance.o [1]
+Obstacle_avoidance::state
+                        0x1fff1fe3     0x1  Data  Lc  distance.o [1]
+Obstacle_avoidance::times1
+                        0x1fff1fe4     0x1  Data  Lc  distance.o [1]
+Obstacle_avoidance::times2
+                        0x1fff1fe5     0x1  Data  Lc  distance.o [1]
+Outside_judge           0x00014cb9    0x68  Code  Gb  Information.o [1]
+Outside_judge::last_dir_err
+                        0x1fff062c     0x4  Data  Lc  Information.o [1]
+Outside_judge::times    0x1fff0628     0x2  Data  Lc  Information.o [1]
+PID_Handler             0x00015a2d    0x5e  Code  Gb  PID.o [1]
+PID_Handler::Motor_frent
+                        0x1fff0479     0x1  Data  Lc  PID.o [1]
+PID_Handler::Servo_frent
+                        0x1fff0478     0x1  Data  Lc  PID.o [1]
+PIT0_Handler            0x00015e35    0xd0  Code  Gb  MyISR.o [1]
+PIT0_Handler::led_times
+                        0x1fff1fe8     0x1  Data  Lc  MyISR.o [1]
+PORTD_Handler           0x00016095    0x54  Code  Gb  distance.o [1]
+PORTX                   0x1fff0450    0x14  Data  Gb  MK66_port.o [1]
+Region$$Table$$Base     0x00016618           --   Gb  - Linker created -
+Region$$Table$$Limit    0x00016628           --   Gb  - Linker created -
+Reset_Handler           0x00010411          Code  Gb  startup_MK66FX18.o [1]
+Round_judge             0x00014d85   0x18a  Code  Gb  Information.o [1]
+Round_judge::Round_move
+                        0x1fff0418     0x1  Data  Lc  Information.o [1]
+Round_judge::Round_state
+                        0x1fff0417     0x1  Data  Lc  Information.o [1]
+Round_judge::limit      0x1fff0419     0x1  Data  Lc  Information.o [1]
+Round_judge::max_input  0x1fff0420     0x2  Data  Lc  Information.o [1]
+Round_judge::re_sample  0x1fff0416     0x1  Data  Lc  Information.o [1]
+Round_judge::re_times   0x1fff0422     0x2  Data  Lc  Information.o [1]
+Round_judge::times1     0x1fff0414     0x1  Data  Lc  Information.o [1]
+Round_judge::times2     0x1fff0415     0x1  Data  Lc  Information.o [1]
+Round_threshold         0x1fff041e     0x2  Data  Gb  Information.o [1]
+Round_threshold_flag    0x1fff1fe7     0x1  Data  Gb  Information.o [1]
+Scan                    0x1fff04cc     0x4  Data  Gb  Signal.o [1]
+Scope                   0x1fff064c  0x1790  Data  Gb  Scope.o [1]
+Scope_init              0x000129d1    0x8e  Code  Gb  Scope.o [1]
+Scope_init::re_init     0x1fff1fe9     0x1  Data  Lc  Scope.o [1]
+Scope_show              0x00012c31    0x2c  Code  Gb  Scope.o [1]
+Section_PID             0x00015859   0x1d2  Code  Gb  PID.o [1]
+Send_Parameter          0x00016165    0x6c  Code  Gb  debug.o [1]
+Servo_PID               0x1fff049c     0x4  Data  Gb  PID.o [1]
+Servo_move              0x000155bd    0x62  Code  Gb  Car.o [1]
+Servo_move::last_mode   0x1fff0509     0x1  Data  Lc  Car.o [1]
+Servo_move::times       0x1fff050c     0x2  Data  Lc  Car.o [1]
+Servo_pid               0x1fff047c    0x20  Data  Gb  PID.o [1]
+Servo_set               0x00015561    0x5a  Code  Gb  Car.o [1]
+Show                    0x1fff1ddc    0x24  Data  Gb  Show.o [1]
+Special_action::times1  0x1fff0510     0x2  Data  Lc  Car.o [1]
+Special_action::times2  0x1fff0512     0x2  Data  Lc  Car.o [1]
+Tree                    0x1fff1e54    0x50  Data  Gb  Show.o [1]
+Tree_init               0x00010419    0xe2  Code  Gb  Show.o [1]
+UARTN                   0x1fff0464    0x14  Data  Gb  MK66_uart.o [1]
+Uart_Handler            0x000161d1    0xb0  Code  Gb  debug.o [1]
+Uart_Handler::Data_Receiving
+                        0x1fff05b6     0x1  Data  Lc  debug.o [1]
+Uart_Handler::Recv_Buff
+                        0x1fff05b8    0x64  Data  Lc  debug.o [1]
+Uart_Handler::data_cnt  0x1fff05b5     0x1  Data  Lc  debug.o [1]
+Uart_Handler::recv      0x1fff05b4     0x1  Data  Lc  debug.o [1]
+Vector_enable_init      0x00015f51    0x18  Code  Gb  MyISR.o [1]
+Vector_handler_init     0x00015f05    0x4c  Code  Gb  MyISR.o [1]
+WZN                     0x1fff0424     0xc  Data  Gb  Information.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2002fff8          Data  Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fff0000          Data  Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00010000          Data  Gb  command line/config [2]
+__aeabi_cdrcmple        0x000157a5          Code  Gb  DblCmpGe.o [4]
+__aeabi_f2d             0x00012989          Code  Gb  FltToDbl.o [4]
+__aeabi_memclr          0x00016525          Code  Gb  ABImemclr.o [5]
+__aeabi_memcpy          0x000145c5          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x000145e5          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8         0x000145e5          Code  Gb  ABImemcpy.o [5]
+__cmain                 0x00016629          Code  Gb  cmain.o [5]
+__code_start__ {Abs}    0x00010410          Data  Gb  command line/config [2]
+__data_GetMemChunk      0x000157d5    0x2c  Code  Gb  xgetmemchunk.o [3]
+__data_GetMemChunk::start
+                        0x1fff1fdc     0x4  Data  Lc  xgetmemchunk.o [3]
+__exit                  0x00016659          Code  Gb  XXexit.o [5]
+__iar_Memset_word       0x0001652d          Code  Gb  ABImemset.o [5]
+__iar_data_init3        0x000165cd    0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp          0x000165f5          Code  Gb  fpinit_M.o [4]
+__iar_program_start     0x00016665          Code  Gb  cstartup_M.o [5]
+__iar_systems$$module {Abs}
+                        0x00000001          Data  Gb  command line/config [2]
+__iar_zero_init3        0x0001658b    0x40  Code  Gb  zero_init3.o [5]
+__no_free_malloc        0x00015739    0x40  Code  Gb  no_free_heap0.o [3]
+__vector_table          0x00010000   0x410  Data  Gb  vectors.o [1]
+_call_main              0x00016635          Code  Gb  cmain.o [5]
+_exit                   0x0001664d          Code  Gb  cexit.o [5]
+_main                   0x00016643          Code  Gb  cmain.o [5]
+a                       0x1fff05b0     0x4  Data  Gb  debug.o [1]
+adc_init                0x00015291    0xea  Code  Gb  MK66_adc.o [1]
+adc_once                0x0001537b    0x3a  Code  Gb  MK66_adc.o [1]
+bus_clk_khz             0x1fff1fac     0x4  Data  Gb  system_MK66FX18.o [1]
+common_startup          0x000163df    0x44  Code  Gb  system_MK66FX18.o [1]
+core_clk_khz            0x1fff1fa4     0x4  Data  Gb  system_MK66FX18.o [1]
+core_clk_mhz            0x1fff1fa8     0x4  Data  Gb  system_MK66FX18.o [1]
+data                    0x1fff1e00    0x14  Data  Gb  Show.o [1]
+deb_control             0x1fff0554     0x8  Data  Gb  debug.o [1]
+default_isr             0x0001466b     0x2  Code  Gb  MK66_conf.o [1]
+exit                    0x00016647     0x4  Code  Gb  exit.o [3]
+find                    0x0001054b    0x24  Code  Gb  Show.o [1]
+flexbus_8080_init       0x00014b59    0xfc  Code  Gb  MK66_flexbus.o [1]
+gear_chose              0x1fff04bb     0x1  Data  Gb  Show.o [1]
+gear_select             0x000104fd    0x4e  Code  Gb  Show.o [1]
+get_key_msg             0x000128bd    0x44  Code  Gb  VCAN_key.o [1]
+glcd                    0x1fff0438     0x4  Data  Gb  MK66_conf.o [1]
+gpio_get                0x0001448d    0x18  Code  Gb  MK66_gpio.o [1]
+gpio_init               0x0001440d    0x44  Code  Gb  MK66_gpio.o [1]
+gpio_set                0x00014451    0x26  Code  Gb  MK66_gpio.o [1]
+gpio_turn               0x00014477    0x16  Code  Gb  MK66_gpio.o [1]
+ili9325_dir             0x1fff0500     0x1  Data  Gb  VCAN_LCD_ILI9325.o [1]
+ili9325_h               0x1fff0502     0x2  Data  Gb  VCAN_LCD_ILI9325.o [1]
+ili9325_w               0x1fff0504     0x2  Data  Gb  VCAN_LCD_ILI9325.o [1]
+key_IRQHandler          0x00012901    0x7a  Code  Gb  VCAN_key.o [1]
+key_IRQHandler::keytime
+                        0x1fff04e0     0x8  Data  Lc  VCAN_key.o [1]
+key_init                0x000127c9    0xae  Code  Gb  VCAN_key.o [1]
+key_msg                 0x1fff1fb0    0x28  Data  Gb  VCAN_key.o [1]
+key_msg_flag            0x1fff1fec     0x1  Data  Gb  VCAN_key.o [1]
+key_msg_front           0x1fff1fea     0x1  Data  Gb  VCAN_key.o [1]
+key_msg_rear            0x1fff1feb     0x1  Data  Gb  VCAN_key.o [1]
+key_num                 0x1fff04ba     0x1  Data  Gb  Show.o [1]
+key_num_get             0x00010571    0x4e  Code  Gb  Show.o [1]
+key_process             0x000105c1   0x824  Code  Gb  Show.o [1]
+key_show                0x00010e3d  0x1100  Code  Gb  Show.o [1]
+key_show::last_mode     0x1fff04bc     0x1  Data  Lc  Show.o [1]
+keymsg                  0x1fff04b8     0x2  Data  Gb  Show.o [1]
+lcd_ili9325             0x1fff04e8    0x14  Data  Gb  VCAN_LCD_ILI9325.o [1]
+led                     0x00014565    0x32  Code  Gb  VCAN_LED.o [1]
+led_init                0x00014529    0x3c  Code  Gb  VCAN_LED.o [1]
+led_turn                0x00014597    0x28  Code  Gb  VCAN_LED.o [1]
+main                    0x00016485    0xa0  Code  Gb  main.o [1]
+md                      0x1fff1e14    0x40  Data  Gb  Show.o [1]
+my_data_load            0x00012519    0xaa  Code  Gb  Show.o [1]
+my_data_save            0x000124a7    0x6a  Code  Gb  Show.o [1]
+my_flash_init           0x0001248f    0x18  Code  Gb  Show.o [1]
+param                   0x1fff0518    0x2c  Data  Gb  Car.o [1]
+port_init               0x000144ad    0x30  Code  Gb  MK66_port.o [1]
+port_init_NoALT         0x000144dd    0x3c  Code  Gb  MK66_port.o [1]
+qs                      0x1fff1fd8     0x4  Data  Lc  no_free_heap0.o [3]
+seat                    0x1fff04a4    0x14  Data  Gb  Show.o [1]
+send_key_msg            0x00012877    0x46  Code  Gb  VCAN_key.o [1]
+set_vector_handler      0x0001610f     0x8  Code  Gb  misc.o [1]
+start                   0x00016385    0x1e  Code  Gb  system_MK66FX18.o [1]
+sysinit                 0x000163a3    0x3c  Code  Gb  system_MK66FX18.o [1]
+temp_state              0x1fff1fe2     0x1  Data  Gb  distance.o [1]
+uart_getchar            0x00015db7    0x14  Code  Gb  MK66_uart.o [1]
+uart_init               0x00015c85   0x132  Code  Gb  MK66_uart.o [1]
+uart_putchar            0x00015dd1    0x14  Code  Gb  MK66_uart.o [1]
+uart_query              0x00015de5    0x14  Code  Gb  MK66_uart.o [1]
+uart_rx_irq_en          0x00015df9    0x10  Code  Gb  MK66_uart.o [1]
+wdog_disable            0x00016459    0x26  Code  Gb  MK66_wdog.o [1]
+write_vtor              0x00016109     0x6  Code  Gb  misc.o [1]
+
+
+[1] = C:\Users\zhangyuliang\Desktop\L车工程\Prj\IAR\MK66FX18_Release\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+
+  24 434 bytes of readonly  code memory
+   1 806 bytes of readonly  data memory
+   7 644 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
